@@ -41,6 +41,9 @@ header button{
     font-weight: 600;
     margin-top: 40px;
 }
+header button i{
+    margin-left: 5px;
+}
 header button:hover{
     background-color: #B9B9B9;
     color: #2C2C2C;
@@ -60,11 +63,20 @@ header button:hover{
     background-color: whitesmoke;
     border: none;
 }
+.btn:hover{
+    background-color: red;
+    color: whitesmoke;
+    transition: all 2s;
+}
 #computer{
     background-color: red;
     color: whitesmoke;
     font-weight: 400;
 
+}
+#computer:hover{
+    background-color: whitesmoke;
+    color: black;
 }
 #left-section{
     background-color: #161616;
@@ -84,11 +96,15 @@ header button:hover{
     justify-content: end;
     margin-right: 50px;
 }
-.box{
+.box {
     border: 1px solid #2C2C2C;
     border-radius: 10px;
     height: 530px;
     width: 450px;
+}
+.box:hover{
+    transform: translateY(-10px);
+    transition: all 1s;
 }
 .box h3{
     font-size: 20px;
@@ -107,7 +123,11 @@ header button:hover{
     margin-top: 20px;
     margin-left: 30px;
     font-weight: 600;
-
+}
+.img-button:hover {
+    color: whitesmoke;
+    background-color: #2C2C2C;
+    transition: all 1s;
 }
 .box p{
     display: inline;
@@ -158,8 +178,20 @@ header button:hover{
     margin-right: 30px;
     color: #B9B9B9;
 }
+.footer ul li a:hover{
+    color: whitesmoke;
+    transition: all 1s;
+}
 .footer ul li{
     list-style-type: none;
+}
+.social-icon i {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.social-icon i:hover{
+    color: #B9B9B9;
+    transition: all 1s;
 }
 
 
